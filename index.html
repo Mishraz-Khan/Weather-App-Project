@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="card">
+      <div id="header">
+        <input type="text" id="input-field" placeholder="Enter Your City"/>
+        <img src="weather-app-img/images/search.png" alt="" id="search-bar" />
+      </div>
+      <div id="err-msg">
+        <p>Invalid Field</p>
+      </div>
+      <div id="main">
+        <img src="" alt="" id="weather-logo"/>
+      </div>
+
+      <div id="heading_section"></div>
+
+      <div id="footer">
+        <div id="humidity" class="flex">
+          <img
+            src="weather-app-img/images/humidity.png"
+            alt=""
+            id="humidity-logo"
+          />
+          <div class="footer-text" id="footer-text1"></div>
+        </div>
+        <div id="wind" class="flex">
+          <img src="weather-app-img/images/wind.png" alt="" id="wind-logo" />
+          <div class="footer-text" id="footer-text2"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
